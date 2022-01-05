@@ -1,0 +1,116 @@
+<!DOCTYPE html> <!--Defining document is an html 5 document-->
+<html lang="en"> <!--The language of this html document is in english -->
+<head> <!--Contains meta elements to give information about this webpage-->
+
+    <meta charset="UTF-8"> <!--Defining character set-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--viewport is visible area of webpage, this defines initial width and zoom factor of viewport, so the webpage looks good on all devices-->
+    <meta name="description" content="A website showcasing what the Vandal brand is all about."> <!--A description of the webpage that would appear on google if the webpage appeared in the search engine-->
+    <title>Vandal</title> <!--This is the title of the website as shown on the tab-->
+    <link rel="stylesheet" href="styles.css"> <!--References the file coded in CSS that will be used to style the elements of the html webpage--> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" /> <!--References the website, Font Awesome, that has code that allows you to insert social media icons into your website--> 
+</head>
+<body>
+     <!--Section for Navigation Bar-->
+     <nav class="navbar">
+        <div class="navbar__container">
+          <a href="#home" id="navbar__logo">VANDAL</a> <!--Puts Vandal logo on the left of the navbar-->
+          <div class="navbar__toggle" id="mobile-menu">
+            <!--Creates the three hamburger bars that for the mobile navbar-->
+            <span class="bar"></span> 
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <ul class="navbar__menu">
+            <li class="navbar__item">
+              <a href="#home" class="navbar__links" id="home-page">home</a> <!--Creates the home tab in the navbar that will link to the top of the website-->
+            </li>
+            <li class="navbar__item">
+              <a href="#about" class="navbar__links" id="about-page">about</a> <!--Creates the about tab in the navbar that will link to the about section of the website-->
+            </li>
+            <li class="navbar__item">
+              <a href="#designs" class="navbar__links" id="designs-page">designs</a> <!--Creates the designs tab in the navbar that will link to the designs section of the website-->
+            </li>  
+            <li class="navbar__item">
+              <a href="#store" class="navbar__links" id="store-page">store</a> <!--Creates the store tab in the navbar that will link to the store section of the website-->
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!--Section for Hero Banner-->
+      <div class="hero" id="home">
+          <div class="hero__container">
+              <h1 class="hero__heading">FEAR NOTHING.</h1> <!--Creates the large fear nothing slogan text on the hero banner-->
+              <p class="hero__description">innovative toronto streetwear designs</p> <!--Creates the smaller tagline underneath the fear nothing text on the hero banner-->
+            </div>
+      </div>
+
+      <!--About Section-->
+      <div class="main" id="about"> 
+          <div class="main__container">
+              <div class="main__img--container">
+                  <div class="main__img--card"> <!--Section for the image on the left of about section-->
+                  </div>
+              </div>
+              <div class="main__content">
+                  <h1>Who are we?</h1> <!--First header for the about section-->
+                  <h2>Graphic designers with a love for fashion.</h2> <!--Second header for the about section-->
+                  <p>Contact us for commission inquiries.</p> <!--Smaller text for the about section-->
+                  <button class="about__btn"><a href="mailto:vandalstreetwearco@gmail.com" target="_blank">contact us</a></button> <!--Contact us button that creates an email to the Vandal Streetwear email when clicked-->
+              </div>
+          </div>
+      </div>
+
+      <!--Designs Section-->
+      <div class="designs" id="designs">
+          <h1>OUR DESIGNS</h1> <!--Creates the large "Our Designs" header in the designs section-->
+          <div class="designs__wrapper">
+              <div class="designs__card">
+                  <div class="designs__btn"><button>VANDAL REALM</button></div> <!--Creates a small written title under the image of the clothing design-->
+              </div>
+              <div class="designs__card">
+              
+                <div class="designs__btn"><button>VANDAL RAGE</button></div> <!--Creates a small written title under the image of the clothing design-->
+            </div><div class="designs__card">
+
+                <div class="designs__btn"><button>VANDAL RAIL</button></div> <!--Creates a small written title under the image of the clothing design-->
+            </div>
+          </div>
+      </div>
+
+      <!--Store Section-->
+      <div class="main" id="store">
+        <div class="main__container">
+            <div class="main__content">
+                <h1>IF YOU'RE INTERESTED...</h1> <!--First header for the store section-->
+                <h2>Check out our online store!</h2> <!--Second header for the store section-->
+                <p>We have partnered with Spreadshirt to deliver great quality and fast shipping.</p>  <!--Smaller text for the store section-->
+                <button class="store__btn"><a href="https://vandalstreetwear.myspreadshop.ca/" target="_blank">store</a></button> <!--Store button that links to the Vandal Streetwear Store when clicked-->
+            </div>
+            <div class="main__img--container">
+                <div class="main__img--card" id="card-2"> <!--Section for the image on the right of store section-->
+                </div>
+            </div>
+            
+        </div>
+       </div>
+    
+       <!--Footer Section-->
+       <div class="footer__container">
+               <section class="social__media">
+                   <div class="social__media--wrap">
+                       <div class="footer__logo">
+                           <a href="/" id="footer__logo">VANDAL</a> <!--Vandal logo in the footer-->
+                       </div>
+                       <p class="website__rights">© Vandal 2022. All rights reserved.</p> <!--Website Rights in the footer-->
+                       <div class="social__icons">
+                            <a href="https://www.instagram.com/vivekjariwala_/" class="social__icon--link" target="_blank" ><i class="fab fa-instagram"></i></a> <!--Instagram logo in the footer that links to Vivek Jariwala's Instagram account page when clicked-->
+                            <a href="https://www.linkedin.com/in/vivek-jariwala-6701711b5" class="social__icon--link" target="_blank" ><i class="fab fa-linkedin"></i></a> <!--LinkedIn logo in the footer that links to Vivek Jariwala's LinkedIn account page when clicked-->
+                       </div>
+                   </div>
+               </section>
+           </div>
+
+      <script src="app.js"></script>
+</body>
+</html>
